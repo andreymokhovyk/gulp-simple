@@ -1,0 +1,37 @@
+
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #464547;
+$headingColor: #464547;
+
+$mainFontSize: 38px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Oswald', Helvetica, sans-serif;
+$headingTextShadow: none;
+$heading1TextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: #39c2d7;
+
+$secondaryLinkColor: #7F993A;
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-dark-background,
+section.has-dark-background-custom {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+
+	a {
+		color: #fff;
+	}
+}
+
